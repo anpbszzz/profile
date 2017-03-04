@@ -44,10 +44,15 @@ OS X Yosemite 10.10, IntelliJ Idea 15.0.1
 
 
 
-
-
-
 如果你按以上操作完成之后，功能上可以使用，但是会出现以下提示信息：
 Mybatis Plugin is not activated yet. Click here to enter your license key to activate the plugin. You can also click here to purchase a license key to sponsor us making the plugin better. More features are on their way. Wish you happy coding with the plugin
 
 请使用文件夹“替换之后如果还有提示，请替换这个文件夹的内容”中的内容替换，目前只有 @xinshitn 同学反映他在mac os下出现此问题，故单独放在文件夹，如果普遍出现此情况，还烦请同学们给我反映
+
+--------------------------------
+Intellij Idea 2017.01 vs Mybatis_plus v2.91亲测可用.
+1 先在Intellij上下载Mybatis_plus v2.91 安装.
+2、/Users/your'username dir/Library/Application Support/IntelliJIdea15/mybatis_plus/lib/mybatis_plus.jar
+3、你找到了mybatis_plus.jar这个文件的位置之后，将对应版本中的com目录拷贝到mybatis_plus.jar同级目录，输入命令将com目录压缩进mybatis_plus.jar中。
+jar uvf mybatis_plus.jar com
+4、重启Idea，完毕。
